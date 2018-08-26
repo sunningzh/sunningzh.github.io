@@ -21,7 +21,7 @@
     </item>
     
     <item>
-      <title>About</title>
+      <title>关于</title>
       <link>http://localhost:1313/about/</link>
       <pubDate>Sun, 20 Aug 2017 21:38:52 +0800</pubDate>
       
@@ -32,7 +32,7 @@ It makes use of a variety of open source projects including:
     </item>
     
     <item>
-      <title>Comment</title>
+      <title>留言</title>
       <link>http://localhost:1313/comment/</link>
       <pubDate>Sun, 26 Aug 2018 15:13:11 -0700</pubDate>
       

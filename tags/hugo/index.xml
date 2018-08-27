@@ -1,35 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Sunning - zhang&#39;s homepage</title>
-    <link>http://localhost:1313/</link>
-    <description>Recent content on Sunning - zhang&#39;s homepage</description>
+    <title>“Hugo” on Sunning - zhang&#39;s homepage</title>
+    <link>http://localhost:1313/tags/hugo/</link>
+    <description>Recent content in “Hugo” on Sunning - zhang&#39;s homepage</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 20 Aug 2017 21:38:52 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 26 Aug 2018 16:49:30 -0700</lastBuildDate>
     
-	<atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://localhost:1313/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>关于</title>
-      <link>http://localhost:1313/about/</link>
-      <pubDate>Sun, 20 Aug 2017 21:38:52 +0800</pubDate>
-      
-      <guid>http://localhost:1313/about/</guid>
-      <description>Hugo is a static site engine written in Go.
-It makes use of a variety of open source projects including:
- Cobra Viper J Walter Weatherman Cast  Learn more and contribute on GitHub.</description>
-    </item>
-    
-    <item>
-      <title>留言</title>
-      <link>http://localhost:1313/comment/</link>
-      <pubDate>Sun, 26 Aug 2018 15:13:11 -0700</pubDate>
-      
-      <guid>http://localhost:1313/comment/</guid>
-      <description></description>
-    </item>
     
     <item>
       <title>Ubuntu下利用Hugo&#43;Github Page搭建个人博客</title>

@@ -19,5 +19,23 @@
       <description></description>
     </item>
     
+    <item>
+      <title>“《八月-前述》”</title>
+      <link>http://localhost:1313/categories/%E5%85%AB%E6%9C%88-%E5%89%8D%E8%BF%B0/</link>
+      <pubDate>Sun, 26 Aug 2018 21:47:20 -0700</pubDate>
+      
+      <guid>http://localhost:1313/categories/%E5%85%AB%E6%9C%88-%E5%89%8D%E8%BF%B0/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>“八月-第三卷”</title>
+      <link>http://localhost:1313/categories/%E5%85%AB%E6%9C%88-%E7%AC%AC%E4%B8%89%E5%8D%B7/</link>
+      <pubDate>Sun, 26 Aug 2018 20:13:51 -0700</pubDate>
+      
+      <guid>http://localhost:1313/categories/%E5%85%AB%E6%9C%88-%E7%AC%AC%E4%B8%89%E5%8D%B7/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>

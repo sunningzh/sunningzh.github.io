@@ -6,10 +6,19 @@
     <description>Recent content in Posts on Sunning - zhang&#39;s homepage</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 26 Aug 2018 21:47:20 -0700</lastBuildDate>
+    <lastBuildDate>Sun, 26 Aug 2018 22:34:28 -0700</lastBuildDate>
     
 	<atom:link href="http://localhost:1313/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Augsws</title>
+      <link>http://localhost:1313/post/augsws/</link>
+      <pubDate>Sun, 26 Aug 2018 22:34:28 -0700</pubDate>
+      
+      <guid>http://localhost:1313/post/augsws/</guid>
+      <description>&lt;p&gt;&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>八月自序</title>
@@ -41,7 +50,7 @@
       <pubDate>Sun, 26 Aug 2018 20:13:51 -0700</pubDate>
       
       <guid>http://localhost:1313/post/augt1/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/2008-1226-Pasadena-003-CityHall.jpg/1024px-2008-1226-Pasadena-003-CityHall.jpg&#34; hight=&#34;75%&#34; width=&#34;75%&#34;/&gt;&lt;/p&gt;
+      <description>&lt;p&gt;&lt;img src=&#34;https://timgsa.baidu.com/timg?image&amp;quality=80&amp;size=b9999_10000&amp;sec=1535953394&amp;di=755d494688bb7797572b6ddb1b87a21b&amp;imgtype=jpg&amp;er=1&amp;src=http%3A%2F%2Fq.bstatic.com%2Fdata%2Fxphoto%2Fmax1280x900%2F752%2F752315.jpg&#34;/&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;</description>
     </item>

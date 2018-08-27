@@ -70,7 +70,7 @@
 
 <meta itemprop="datePublished" content="2018-08-26T16:49:30-07:00" />
 <meta itemprop="dateModified" content="2018-08-26T16:49:30-07:00" />
-<meta itemprop="wordCount" content="1277">
+<meta itemprop="wordCount" content="1381">
 
 
 
@@ -161,7 +161,7 @@
               <a href="/categories/hugo/"> “Hugo” </a>
             
           </div>
-        <span class="more-meta"> 约 1277 字 </span>
+        <span class="more-meta"> 约 1381 字 </span>
         <span class="more-meta"> 预计阅读 3 分钟 </span>
         <span id="busuanzi_container_page_pv" class="more-meta"> <span id="busuanzi_value_page_pv"><img src="/img/spinner.svg" alt="spinner.svg"/></span> 次阅读 </span>
       </div>
@@ -209,7 +209,7 @@
     <div class="post-content">
       <p>Github作为最流行的版本控制平台，在码农圈、科研界甚为流行。Github不仅是一个代码存放空间，更提供了开源书籍创作平台Gitbook和个人博客搭建平台Github Page. 本博客便是基于最流行的Hugo架构并借助Github Page发布的。</p>
 
-<p><img src="https://spin.atomicobject.com/wp-content/uploads/20171003153036/github-logo.png"/></p>
+<p><img src="https://spin.atomicobject.com/wp-content/uploads/20171003153036/github-logo.png" height="80%" width="80%"/></p>
 
 <p></p>
 
@@ -245,14 +245,17 @@
 
 <p>然后</p>
 
-<pre><code class="language-shell">
+<pre><code>$ cd hugoblog
+$ hugo new site sunning #最关键的一步，会在hugoblog文件夹下新建一个叫做sunning的文件夹
+$ cd sunning
+$ ls
 </code></pre>
 
 <h4 id="4-选择主题并安装">4.选择主题并安装</h4>
 
 <p>确定当前所在文件夹是sunning，这里我使用的主题是even</p>
 
-<pre><code>
+<pre><code>git clone https://github.com/olOwOlo/hugo-theme-even themes/even
 </code></pre>
 
 <h4 id="5-主题配置">5.主题配置</h4>
@@ -263,14 +266,20 @@
 
 <p>添加页面，比如我要添加一个关于页面和留言页面</p>
 
-<pre><code class="language-shell">
+<pre><code>cd sunning
+hugo new about.md
+vim about.md
+#修改about.md内容如下
+title: &quot;关于&quot;
+menu: &quot;main&quot;
+weight: 50
 </code></pre>
 
 <h4 id="6-本地预览">6.本地预览</h4>
 
 <p>此时，虽然没有上传到github上，但是可以在浏览器里预览一下，直接输入</p>
 
-<pre><code>
+<pre><code>hugo server
 </code></pre>
 
 <p>然后在浏览器里访问 <a href="http://localhost:1313/即可">http://localhost:1313/即可</a></p>
@@ -293,7 +302,8 @@ git push -u origin master
 
 <h4 id="8-写文章">8.写文章</h4>
 
-<pre><code>
+<pre><code>cd sunning
+hugo new post/***.md
 </code></pre>
 
 <p>只支持markdow，推荐使用typora编辑markdown</p>

@@ -17,6 +17,13 @@
   </url>
   
   <url>
+    <loc>http://localhost:1313/post/it1/</loc>
+    <lastmod>2018-08-29T18:13:38-07:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>http://localhost:1313/post/feel1/</loc>
     <lastmod>2018-08-29T17:37:48-07:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -87,7 +94,22 @@
   </url>
   
   <url>
+    <loc>http://localhost:1313/tags/cs/</loc>
+    <lastmod>2018-08-29T18:13:38-07:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/categories/cs/</loc>
+    <lastmod>2018-08-29T18:13:38-07:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://localhost:1313/categories/</loc>
+    <lastmod>2018-08-29T18:13:38-07:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
@@ -108,7 +130,7 @@
   
   <url>
     <loc>http://localhost:1313/post/</loc>
-    <lastmod>2018-08-29T17:37:48-07:00</lastmod>
+    <lastmod>2018-08-29T18:13:38-07:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
@@ -122,7 +144,7 @@
   
   <url>
     <loc>http://localhost:1313/tags/</loc>
-    <lastmod>2018-08-26T16:49:30-07:00</lastmod>
+    <lastmod>2018-08-29T18:13:38-07:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>CS on Sunning - zhang&#39;s homepage</title>
+    <link>http://localhost:1313/categories/cs/</link>
+    <description>Recent content in CS on Sunning - zhang&#39;s homepage</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 29 Aug 2018 18:13:38 -0700</lastBuildDate>
+    
+	<atom:link href="http://localhost:1313/categories/cs/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>大数据处理之Python与C的I/O操作总结</title>
+      <link>http://localhost:1313/post/it1/</link>
+      <pubDate>Wed, 29 Aug 2018 18:13:38 -0700</pubDate>
+      
+      <guid>http://localhost:1313/post/it1/</guid>
+      <description>&lt;p&gt;暑研一直在处理数据，了解了一些Python和C读取文件，尤其是二进制文件的技巧，特总结于此。&lt;/p&gt;
+
+&lt;p&gt;这次暑研才发现文件的I/O操作是我在编程中薄弱的一项，希望今后多多注意这个问题，多多总结。&lt;/p&gt;
+
+&lt;p&gt;由于自己还比较熟悉Fortran和Linux shell还有Matlab，希望之后跟进一下这三门语言的I/O操作。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

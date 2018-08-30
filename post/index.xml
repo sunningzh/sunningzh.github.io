@@ -6,10 +6,21 @@
     <description>Recent content in Posts on Sunning - zhang&#39;s homepage</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 29 Aug 2018 18:13:38 -0700</lastBuildDate>
+    <lastBuildDate>Wed, 29 Aug 2018 21:12:31 -0700</lastBuildDate>
     
 	<atom:link href="http://localhost:1313/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>红楼新评（一）贾府风云</title>
+      <link>http://localhost:1313/post/reading1/</link>
+      <pubDate>Wed, 29 Aug 2018 21:12:31 -0700</pubDate>
+      
+      <guid>http://localhost:1313/post/reading1/</guid>
+      <description>&lt;p&gt;在这个浮躁的社会，我大能摸着良心说一句自己算是个红学爱好者，窃以为，仅凭阅读了四遍红楼梦，遍有望担当起爱好者这三个字。今天，且听我谈谈我看红楼的一些粗浅的理解。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>大数据处理之Python与C的I/O操作总结</title>

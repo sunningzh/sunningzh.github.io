@@ -17,6 +17,13 @@
   </url>
   
   <url>
+    <loc>http://localhost:1313/post/reading1/</loc>
+    <lastmod>2018-08-29T21:12:31-07:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>http://localhost:1313/post/it1/</loc>
     <lastmod>2018-08-29T18:13:38-07:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -130,7 +137,7 @@
   
   <url>
     <loc>http://localhost:1313/post/</loc>
-    <lastmod>2018-08-29T18:13:38-07:00</lastmod>
+    <lastmod>2018-08-29T21:12:31-07:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
@@ -257,6 +264,20 @@
   <url>
     <loc>http://localhost:1313/tags/%E7%A4%BE%E8%AF%84/</loc>
     <lastmod>2018-08-26T21:47:20-07:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/tags/%E7%BA%A2%E6%A5%BC/</loc>
+    <lastmod>2018-08-29T21:12:31-07:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/categories/%E8%AF%BB%E4%B9%A6/</loc>
+    <lastmod>2018-08-29T21:12:31-07:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>

@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <title>大数据处理之Python与C的I/O操作总结 - Sunning - zhang&#39;s homepage</title>
+  <title>红楼新评（一）贾府风云 - Sunning - zhang&#39;s homepage</title>
   <meta name="renderer" content="webkit" />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
 
@@ -17,9 +17,7 @@
 
 
 <meta name="author" content="Sunning" />
-  <meta name="description" content="暑研一直在处理数据，了解了一些Python和C读取文件，尤其是二进制文件的技巧，特总结于此。
-这次暑研才发现文件的I/O操作是我在编程中薄弱的一项，希望今后多多注意这个问题，多多总结。
-由于自己还比较熟悉Fortran和Linux shell还有Matlab，希望之后跟进一下这三门语言的I/O操作。
+  <meta name="description" content="在这个浮躁的社会，我大能摸着良心说一句自己算是个红学爱好者，窃以为，仅凭阅读了四遍红楼梦，遍有望担当起爱好者这三个字。今天，且听我谈谈我看红楼的一些粗浅的理解。
 
 " />
 
@@ -33,7 +31,7 @@
 <meta name="generator" content="Hugo 0.47.1" />
 
 
-<link rel="canonical" href="http://localhost:1313/post/it1/" />
+<link rel="canonical" href="http://localhost:1313/post/reading1/" />
 
 <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
@@ -53,41 +51,29 @@
 
 
 
-<meta property="og:title" content="大数据处理之Python与C的I/O操作总结" />
-<meta property="og:description" content="暑研一直在处理数据，了解了一些Python和C读取文件，尤其是二进制文件的技巧，特总结于此。
-
-这次暑研才发现文件的I/O操作是我在编程中薄弱的一项，希望今后多多注意这个问题，多多总结。
-
-由于自己还比较熟悉Fortran和Linux shell还有Matlab，希望之后跟进一下这三门语言的I/O操作。
+<meta property="og:title" content="红楼新评（一）贾府风云" />
+<meta property="og:description" content="在这个浮躁的社会，我大能摸着良心说一句自己算是个红学爱好者，窃以为，仅凭阅读了四遍红楼梦，遍有望担当起爱好者这三个字。今天，且听我谈谈我看红楼的一些粗浅的理解。
 
 " />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="http://localhost:1313/post/it1/" /><meta property="article:published_time" content="2018-08-29T18:13:38-07:00"/>
-<meta property="article:modified_time" content="2018-08-29T18:13:38-07:00"/>
-<meta itemprop="name" content="大数据处理之Python与C的I/O操作总结">
-<meta itemprop="description" content="暑研一直在处理数据，了解了一些Python和C读取文件，尤其是二进制文件的技巧，特总结于此。
-
-这次暑研才发现文件的I/O操作是我在编程中薄弱的一项，希望今后多多注意这个问题，多多总结。
-
-由于自己还比较熟悉Fortran和Linux shell还有Matlab，希望之后跟进一下这三门语言的I/O操作。
+<meta property="og:url" content="http://localhost:1313/post/reading1/" /><meta property="article:published_time" content="2018-08-29T21:12:31-07:00"/>
+<meta property="article:modified_time" content="2018-08-29T21:12:31-07:00"/>
+<meta itemprop="name" content="红楼新评（一）贾府风云">
+<meta itemprop="description" content="在这个浮躁的社会，我大能摸着良心说一句自己算是个红学爱好者，窃以为，仅凭阅读了四遍红楼梦，遍有望担当起爱好者这三个字。今天，且听我谈谈我看红楼的一些粗浅的理解。
 
 ">
 
 
-<meta itemprop="datePublished" content="2018-08-29T18:13:38-07:00" />
-<meta itemprop="dateModified" content="2018-08-29T18:13:38-07:00" />
-<meta itemprop="wordCount" content="152">
+<meta itemprop="datePublished" content="2018-08-29T21:12:31-07:00" />
+<meta itemprop="dateModified" content="2018-08-29T21:12:31-07:00" />
+<meta itemprop="wordCount" content="1723">
 
 
 
-<meta itemprop="keywords" content="CS," />
+<meta itemprop="keywords" content="红楼," />
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="大数据处理之Python与C的I/O操作总结"/>
-<meta name="twitter:description" content="暑研一直在处理数据，了解了一些Python和C读取文件，尤其是二进制文件的技巧，特总结于此。
-
-这次暑研才发现文件的I/O操作是我在编程中薄弱的一项，希望今后多多注意这个问题，多多总结。
-
-由于自己还比较熟悉Fortran和Linux shell还有Matlab，希望之后跟进一下这三门语言的I/O操作。
+<meta name="twitter:title" content="红楼新评（一）贾府风云"/>
+<meta name="twitter:description" content="在这个浮躁的社会，我大能摸着良心说一句自己算是个红学爱好者，窃以为，仅凭阅读了四遍红楼梦，遍有望担当起爱好者这三个字。今天，且听我谈谈我看红楼的一些粗浅的理解。
 
 "/>
 
@@ -160,17 +146,17 @@
           <article class="post">
     
     <header class="post-header">
-      <h1 class="post-title">大数据处理之Python与C的I/O操作总结</h1>
+      <h1 class="post-title">红楼新评（一）贾府风云</h1>
 
       <div class="post-meta">
         <span class="post-time"> 2018-08-29 </span>
         <div class="post-category">
             
-              <a href="/categories/cs/"> CS </a>
+              <a href="/categories/%E8%AF%BB%E4%B9%A6/"> 读书 </a>
             
           </div>
-        <span class="more-meta"> 约 152 字 </span>
-        <span class="more-meta"> 预计阅读 1 分钟 </span>
+        <span class="more-meta"> 约 1723 字 </span>
+        <span class="more-meta"> 预计阅读 4 分钟 </span>
         <span id="busuanzi_container_page_pv" class="more-meta"> <span id="busuanzi_value_page_pv"><img src="/img/spinner.svg" alt="spinner.svg"/></span> 次阅读 </span>
       </div>
     </header>
@@ -190,15 +176,27 @@
 
     
     <div class="post-content">
-      <p>暑研一直在处理数据，了解了一些Python和C读取文件，尤其是二进制文件的技巧，特总结于此。</p>
-
-<p>这次暑研才发现文件的I/O操作是我在编程中薄弱的一项，希望今后多多注意这个问题，多多总结。</p>
-
-<p>由于自己还比较熟悉Fortran和Linux shell还有Matlab，希望之后跟进一下这三门语言的I/O操作。</p>
+      <p>在这个浮躁的社会，我大能摸着良心说一句自己算是个红学爱好者，窃以为，仅凭阅读了四遍红楼梦，遍有望担当起爱好者这三个字。今天，且听我谈谈我看红楼的一些粗浅的理解。</p>
 
 <p></p>
 
-<p>未完待续。</p>
+<p>其实，我受到刘心武先生的影响比较大，毕竟看完了他的百家讲坛全集，感觉得有一百集了。我个人感觉，他有些观点确实不妥，但大半的想法说服了我。《红楼梦》最不怕的就是争论，反正原著的后半部分已经失传，于是便可以百花齐放了。</p>
+
+<p>初读红楼梦，完全是当年江西卷高考要考红楼梦，抱着功利的观点当然看不出什么门道，那些长长的诗词歌赋一律跳过，这样算下来，简直没有看。好在终归把里面的人物关系搞清楚了，主要的故事情节也大概知道了，当时还不觉得高鹗的续书有什么不妥，皆大欢喜，岂不美哉？只是颇为宝钗感到可惜，大好青春，付诸东流。在和一些自称文艺青年的人交流的时候，必然要和对方探讨一下在《红楼梦》里面最喜欢哪个角色，若说不出个所以然，倒真难得到我的认可。凭你看了再多的米兰昆德拉或是马尔克斯。</p>
+
+<p>我在上《西方油画赏析》课时，老师教过我一个筛选真正懂艺术和不懂装懂的人的方法。你且让他看一幅画，且问他画得好不好？画得好？您倒是讲讲哪里好，怎么个好法？行家不行家，一动嘴就能见分晓，是故我学完这门课，虽然对油画赏析似乎还是一窍不通，但是如何抓打肿脸的胖子倒是有一套。同样的道理，即说是文青，却不读红楼，即读过红楼，又不能说出个道理来圆场，叫我如何信服。</p>
+
+<p>言归正传，且听我谈谈红楼。我先从宏观角度谈一谈我看《红楼梦》的感受，一刷我是应付任务，二刷我是当成爱情小说来讲，三刷是当成一部文学作品来欣赏，四刷是为了解开心中的一些疑惑，尤其是看刘心武讲百家讲坛时。每个阶段自己都有一个不同的理解。目前，我所理解的红楼梦的主线是一场贾家内部的家庭斗争，我实在不想上升到什么皇权斗争，我对清史的了解大概还停留在《步步惊心》、《雍正王朝》之类影视剧，也难以评价。但贾家内部的斗争却是书中实实在在看到的，其中很多细节，外行一点的人却是看不出来。</p>
+
+<p>首先，依我之见，贾家，主要指荣国府，存在四股势力，最强劲的一股当属王派，核心人物当然不是凤姐，而是王夫人，就我看，王夫人手段比凤姐高明得很呢。王派的主要人员有王夫人、贾元春、王熙凤、薛姨妈、薛宝钗、花袭人、贾探春，这几个人戏份也很重，她们基本把持了贾府的方方面面。其次的势力是正统史派，只有贾母和林黛玉两个人。由于贾母在小说中Bug一样的定位，尽管史派人少，但贾母活着的时候，常常可以一个人正面狠狠打击王派势力，是故林黛玉的地位在贾母活着的时候受到了良好的保障，我只谈前八十回，高鹗的四十回就算了，基本没有人认可其与原著的契合度。为什么说史派是正统，且听之后的文章，此处暂不谈。第三股势力是赵派，主要是赵姨娘、贾环、马道婆等等，赵派一般是见不得光的，但却甚得贾政信任，此也是后话，我觉得赵派也是害死林黛玉的直接凶手，赵派平时主要偷袭王派，通过马道婆使用妖术也好，在贾政面前进谗言也好，我暂时还没找到充足的理由或者证据证明赵派最后害死林黛玉，但是直觉告诉我应该是这样。最弱的一派是邢夫人代表的刑派。其实要细究，还有一些小势力，比如贾宝玉房中的丫鬟晴雯等也算一股势力，最终在王派的干预下被花袭人一举铲除。此外史派还暗中扶助了李纨所在的李派，这倒是有证据。</p>
+
+<p>这场家族乱斗中，贾宝玉实在是一个微妙存在。首先，他不属于任何一派，倒可以说他是晴雯一派的靠山，也是林黛玉的一个靠山，虽然不那么靠谱。此外王派和史派都要保证贾宝玉的绝对接班人身份，这很滑稽，两大势力选定的接班人居然是同一个人，既然这样，那两派的焦点就是控制宝玉了，而他们认为，通过控制贾宝玉的未来妻子才是关键，于是薛宝钗和林黛玉被推上了舞台，实际上，两人初期，斗争还是很激烈的，最后发生了一件很费解的事情，使得两人的斗争戛然而止。此亦是后话，所以通过这件事情，我断定，直接害死林黛玉的绝对不是王派，而刑派也没有足够动机，因此，凶手貌似只能是赵派了，其动机大家可以细想一下。</p>
+
+<p>到此，我简单分析了一下我对红楼宏观背景的一些看法，下一讲，且听我从我最喜欢的女性角色薛宝钗讲起，欲知后事如何，且听下回《红楼新评（二）- 史太君三打薛宝钗》分解。</p>
+
+<p>zhangs</p>
+
+<p>2018/08/29, 于Oak Forest Lane</p>
     </div>
 
     
@@ -238,21 +236,16 @@
     <footer class="post-footer">
       <div class="post-tags">
           
-          <a href="/tags/cs/">CS</a>
+          <a href="/tags/%E7%BA%A2%E6%A5%BC/">红楼</a>
           
         </div>
 
       
       <nav class="post-nav">
         
-          <a class="prev" href="/post/reading1/">
-            <i class="iconfont icon-left"></i>
-            <span class="prev-text nav-default">红楼新评（一）贾府风云</span>
-            <span class="prev-text nav-mobile">上一篇</span>
-          </a>
         
-          <a class="next" href="/post/feel1/">
-            <span class="next-text nav-default">访美漫谈（一）</span>
+          <a class="next" href="/post/it1/">
+            <span class="next-text nav-default">大数据处理之Python与C的I/O操作总结</span>
             <span class="next-text nav-mobile">下一篇</span>
             <i class="iconfont icon-right"></i>
           </a>
@@ -263,7 +256,7 @@
         
   
   
-  <span id="/post/it1/" class="leancloud_visitors" data-flag-title="大数据处理之Python与C的I/O操作总结">
+  <span id="/post/reading1/" class="leancloud_visitors" data-flag-title="红楼新评（一）贾府风云">
     <span class="post-meta-item-text">文章阅读量 </span>
     <span class="leancloud-visitors-count">1000000</span>
     <p></p>

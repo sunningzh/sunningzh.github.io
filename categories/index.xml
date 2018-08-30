@@ -101,5 +101,14 @@
       <description></description>
     </item>
     
+    <item>
+      <title>读书</title>
+      <link>http://localhost:1313/categories/%E8%AF%BB%E4%B9%A6/</link>
+      <pubDate>Wed, 29 Aug 2018 21:12:31 -0700</pubDate>
+      
+      <guid>http://localhost:1313/categories/%E8%AF%BB%E4%B9%A6/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>

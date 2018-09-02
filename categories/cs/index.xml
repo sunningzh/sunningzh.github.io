@@ -6,10 +6,21 @@
     <description>Recent content in CS on Sunning - zhang&#39;s homepage</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 29 Aug 2018 18:13:38 -0700</lastBuildDate>
+    <lastBuildDate>Sun, 02 Sep 2018 13:23:51 -0700</lastBuildDate>
     
 	<atom:link href="http://localhost:1313/categories/cs/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>一个大胆的想法-PySeisLib工具包开发正式启动</title>
+      <link>http://localhost:1313/post/it2/</link>
+      <pubDate>Sun, 02 Sep 2018 13:23:51 -0700</pubDate>
+      
+      <guid>http://localhost:1313/post/it2/</guid>
+      <description>&lt;p&gt;我年轻的时候曾经用python写过一个GUI界面的文件搜索器，它的原理很简单，遍历每一个路径寻找文件，搜索速度不敢恭维，近来使用python画图时觉得这个语言确实很好用，而且自己日常也需要一些小工具，于是想自己用python开发，我把这一系列小工具集合起来，名字就叫做PySeisLib.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>大数据处理之Python与C的I/O操作总结</title>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>网络爬虫：python实现 on Sunning - zhang&#39;s homepage</title>
+    <link>http://localhost:1313/categories/%E7%BD%91%E7%BB%9C%E7%88%AC%E8%99%ABpython%E5%AE%9E%E7%8E%B0/</link>
+    <description>Recent content in 网络爬虫：python实现 on Sunning - zhang&#39;s homepage</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 17 Sep 2018 04:32:41 -0700</lastBuildDate>
+    
+	<atom:link href="http://localhost:1313/categories/%E7%BD%91%E7%BB%9C%E7%88%AC%E8%99%ABpython%E5%AE%9E%E7%8E%B0/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>用Python培育网络爬虫（0）绪论</title>
+      <link>http://localhost:1313/post/pyspy0/</link>
+      <pubDate>Mon, 17 Sep 2018 04:32:41 -0700</pubDate>
+      
+      <guid>http://localhost:1313/post/pyspy0/</guid>
+      <description>&lt;p&gt;什么叫网络爬虫？&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;网络爬虫（又被称为网页蜘蛛、网络机器人），是一种按照一定的规则，自动抓取万维网信息的程序或者脚本。《Python网络爬虫开发与项目实战》范传辉 著&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;百度搜索引擎就属于网络爬虫中的一种。通俗地说，网络爬虫就是按照你的意愿，在广阔的万维网上自动下载并整理你所需要的资源。这样听上去是不是既有趣又有用？培育爬虫是一个艰难的过程，万维网时刻在变化，网络爬虫要想生存下来，必须时刻进化！&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

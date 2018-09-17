@@ -17,6 +17,13 @@
   </url>
   
   <url>
+    <loc>http://localhost:1313/post/pyspy0/</loc>
+    <lastmod>2018-09-17T04:32:41-07:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>http://localhost:1313/post/augs5/</loc>
     <lastmod>2018-09-12T07:02:27-07:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -129,14 +136,14 @@
   </url>
   
   <url>
-    <loc>http://localhost:1313/tags/cs/</loc>
+    <loc>http://localhost:1313/categories/cs/</loc>
     <lastmod>2018-09-02T13:23:51-07:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/categories/cs/</loc>
+    <loc>http://localhost:1313/tags/cs/</loc>
     <lastmod>2018-09-02T13:23:51-07:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
@@ -157,14 +164,14 @@
   </url>
   
   <url>
-    <loc>http://localhost:1313/tags/hugo/</loc>
+    <loc>http://localhost:1313/categories/hugo/</loc>
     <lastmod>2018-08-26T16:49:30-07:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/categories/hugo/</loc>
+    <loc>http://localhost:1313/tags/hugo/</loc>
     <lastmod>2018-08-26T16:49:30-07:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
@@ -179,7 +186,7 @@
   
   <url>
     <loc>http://localhost:1313/post/</loc>
-    <lastmod>2018-09-12T07:02:27-07:00</lastmod>
+    <lastmod>2018-09-17T04:32:41-07:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
@@ -262,13 +269,6 @@
   </url>
   
   <url>
-    <loc>http://localhost:1313/tags/%E6%9D%82%E8%B0%88/</loc>
-    <lastmod>2018-08-27T23:59:27-07:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>http://localhost:1313/categories/%E6%9D%82%E8%B0%88/</loc>
     <lastmod>2018-08-27T23:59:27-07:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -276,8 +276,8 @@
   </url>
   
   <url>
-    <loc>http://localhost:1313/tags/%E7%A4%BE%E8%AF%84/</loc>
-    <lastmod>2018-08-26T21:47:20-07:00</lastmod>
+    <loc>http://localhost:1313/tags/%E6%9D%82%E8%B0%88/</loc>
+    <lastmod>2018-08-27T23:59:27-07:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
@@ -290,8 +290,29 @@
   </url>
   
   <url>
+    <loc>http://localhost:1313/tags/%E7%A4%BE%E8%AF%84/</loc>
+    <lastmod>2018-08-26T21:47:20-07:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://localhost:1313/tags/%E7%BA%A2%E6%A5%BC/</loc>
     <lastmod>2018-08-29T21:12:31-07:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/tags/%E7%BD%91%E7%BB%9C%E7%88%AC%E8%99%ABpythoncs/</loc>
+    <lastmod>2018-09-17T04:32:41-07:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/categories/%E7%BD%91%E7%BB%9C%E7%88%AC%E8%99%ABpython%E5%AE%9E%E7%8E%B0/</loc>
+    <lastmod>2018-09-17T04:32:41-07:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>

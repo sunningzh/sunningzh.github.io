@@ -6,17 +6,12 @@
     <description>Recent content in Posts on Sunning - zhang&#39;s homepage</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-<<<<<<< HEAD
     <lastBuildDate>Mon, 17 Sep 2018 07:11:37 -0700</lastBuildDate>
-=======
-    <lastBuildDate>Mon, 17 Sep 2018 04:32:41 -0700</lastBuildDate>
->>>>>>> cce9ea784ef838849072430381ed850654430dba
     
 	<atom:link href="http://localhost:1313/post/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-<<<<<<< HEAD
       <title>Augs7</title>
       <link>http://localhost:1313/post/augs7/</link>
       <pubDate>Mon, 17 Sep 2018 07:11:37 -0700</pubDate>
@@ -41,8 +36,6 @@
     </item>
     
     <item>
-=======
->>>>>>> cce9ea784ef838849072430381ed850654430dba
       <title>用Python培育网络爬虫（0）绪论</title>
       <link>http://localhost:1313/post/pyspy0/</link>
       <pubDate>Mon, 17 Sep 2018 04:32:41 -0700</pubDate>

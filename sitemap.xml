@@ -17,7 +17,6 @@
   </url>
   
   <url>
-<<<<<<< HEAD
     <loc>http://localhost:1313/post/augs7/</loc>
     <lastmod>2018-09-17T07:11:37-07:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -32,8 +31,6 @@
   </url>
   
   <url>
-=======
->>>>>>> cce9ea784ef838849072430381ed850654430dba
     <loc>http://localhost:1313/post/pyspy0/</loc>
     <lastmod>2018-09-17T04:32:41-07:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -153,22 +150,14 @@
   </url>
   
   <url>
-<<<<<<< HEAD
     <loc>http://localhost:1313/tags/cs/</loc>
-=======
-    <loc>http://localhost:1313/categories/cs/</loc>
->>>>>>> cce9ea784ef838849072430381ed850654430dba
     <lastmod>2018-09-02T13:23:51-07:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
-<<<<<<< HEAD
     <loc>http://localhost:1313/categories/cs/</loc>
-=======
-    <loc>http://localhost:1313/tags/cs/</loc>
->>>>>>> cce9ea784ef838849072430381ed850654430dba
     <lastmod>2018-09-02T13:23:51-07:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
@@ -189,22 +178,14 @@
   </url>
   
   <url>
-<<<<<<< HEAD
     <loc>http://localhost:1313/tags/hugo/</loc>
-=======
-    <loc>http://localhost:1313/categories/hugo/</loc>
->>>>>>> cce9ea784ef838849072430381ed850654430dba
     <lastmod>2018-08-26T16:49:30-07:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
-<<<<<<< HEAD
     <loc>http://localhost:1313/categories/hugo/</loc>
-=======
-    <loc>http://localhost:1313/tags/hugo/</loc>
->>>>>>> cce9ea784ef838849072430381ed850654430dba
     <lastmod>2018-08-26T16:49:30-07:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
@@ -219,11 +200,7 @@
   
   <url>
     <loc>http://localhost:1313/post/</loc>
-<<<<<<< HEAD
     <lastmod>2018-09-17T07:11:37-07:00</lastmod>
-=======
-    <lastmod>2018-09-17T04:32:41-07:00</lastmod>
->>>>>>> cce9ea784ef838849072430381ed850654430dba
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
@@ -244,11 +221,7 @@
   
   <url>
     <loc>http://localhost:1313/tags/%E5%85%AB%E6%9C%88/</loc>
-<<<<<<< HEAD
     <lastmod>2018-09-17T06:19:37-07:00</lastmod>
-=======
-    <lastmod>2018-09-12T07:02:27-07:00</lastmod>
->>>>>>> cce9ea784ef838849072430381ed850654430dba
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
@@ -283,11 +256,7 @@
   
   <url>
     <loc>http://localhost:1313/categories/%E5%85%AB%E6%9C%88-%E7%AC%AC%E4%BA%8C%E5%8D%B7/</loc>
-<<<<<<< HEAD
     <lastmod>2018-09-17T06:19:37-07:00</lastmod>
-=======
-    <lastmod>2018-09-12T07:02:27-07:00</lastmod>
->>>>>>> cce9ea784ef838849072430381ed850654430dba
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
@@ -314,44 +283,28 @@
   </url>
   
   <url>
-<<<<<<< HEAD
     <loc>http://localhost:1313/tags/%E6%9D%82%E8%B0%88/</loc>
-=======
-    <loc>http://localhost:1313/categories/%E6%9D%82%E8%B0%88/</loc>
->>>>>>> cce9ea784ef838849072430381ed850654430dba
     <lastmod>2018-08-27T23:59:27-07:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
-<<<<<<< HEAD
     <loc>http://localhost:1313/categories/%E6%9D%82%E8%B0%88/</loc>
-=======
-    <loc>http://localhost:1313/tags/%E6%9D%82%E8%B0%88/</loc>
->>>>>>> cce9ea784ef838849072430381ed850654430dba
     <lastmod>2018-08-27T23:59:27-07:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
-<<<<<<< HEAD
     <loc>http://localhost:1313/tags/%E7%A4%BE%E8%AF%84/</loc>
-=======
-    <loc>http://localhost:1313/categories/%E7%A4%BE%E8%AF%84/</loc>
->>>>>>> cce9ea784ef838849072430381ed850654430dba
     <lastmod>2018-08-26T21:47:20-07:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
-<<<<<<< HEAD
     <loc>http://localhost:1313/categories/%E7%A4%BE%E8%AF%84/</loc>
-=======
-    <loc>http://localhost:1313/tags/%E7%A4%BE%E8%AF%84/</loc>
->>>>>>> cce9ea784ef838849072430381ed850654430dba
     <lastmod>2018-08-26T21:47:20-07:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>

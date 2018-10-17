@@ -30,7 +30,6 @@
     </item>
     
     <item>
-<<<<<<< HEAD
       <title>Augs7</title>
       <link>http://localhost:1313/post/augs7/</link>
       <pubDate>Mon, 17 Sep 2018 07:11:37 -0700</pubDate>
@@ -55,8 +54,6 @@
     </item>
     
     <item>
-=======
->>>>>>> cce9ea784ef838849072430381ed850654430dba
       <title>用Python培育网络爬虫（0）绪论</title>
       <link>http://localhost:1313/post/pyspy0/</link>
       <pubDate>Mon, 17 Sep 2018 04:32:41 -0700</pubDate>

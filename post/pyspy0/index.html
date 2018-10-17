@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>用Python培育网络爬虫（0）绪论 - Sunning - zhang&#39;s homepage</title>
+  <meta name="renderer" content="webkit" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+<meta name="theme-color" content="#f8f5ec" />
+<meta name="msapplication-navbutton-color" content="#f8f5ec">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="#f8f5ec">
+
+
+<meta name="author" content="Sunning" />
+  <meta name="description" content="什么叫网络爬虫？
+ 网络爬虫（又被称为网页蜘蛛、网络机器人），是一种按照一定的规则，自动抓取万维网信息的程序或者脚本。《Python网络爬虫开发与项目实战》范传辉 著
+ 百度搜索引擎就属于网络爬虫中的一种。通俗地说，网络爬虫就是按照你的意愿，在广阔的万维网上自动下载并整理你所需要的资源。这样听上去是不是既有趣又有用？培育爬虫是一个艰难的过程，万维网时刻在变化，网络爬虫要想生存下来，必须时刻进化！
+
+" />
+
+  <meta name="keywords" content="Hugo, theme, even" />
+
+
+
+
+
+
+<meta name="generator" content="Hugo 0.49.2" />
+
+
+<link rel="canonical" href="http://localhost:1313/post/pyspy0/" />
+
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/manifest.json">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+
+
+
+
+<script async src="//dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+
+<link href="/dist/even.min.css?v=3.2.0" rel="stylesheet">
+<link href="/lib/fancybox/jquery.fancybox-3.1.20.min.css" rel="stylesheet">
+
+
+
+
+<meta property="og:title" content="用Python培育网络爬虫（0）绪论" />
+<meta property="og:description" content="什么叫网络爬虫？
+
+
+网络爬虫（又被称为网页蜘蛛、网络机器人），是一种按照一定的规则，自动抓取万维网信息的程序或者脚本。《Python网络爬虫开发与项目实战》范传辉 著
+
+
+百度搜索引擎就属于网络爬虫中的一种。通俗地说，网络爬虫就是按照你的意愿，在广阔的万维网上自动下载并整理你所需要的资源。这样听上去是不是既有趣又有用？培育爬虫是一个艰难的过程，万维网时刻在变化，网络爬虫要想生存下来，必须时刻进化！
+
+" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://localhost:1313/post/pyspy0/" /><meta property="article:published_time" content="2018-09-17T04:32:41-07:00"/>
+<meta property="article:modified_time" content="2018-09-17T04:32:41-07:00"/>
+
+<meta itemprop="name" content="用Python培育网络爬虫（0）绪论">
+<meta itemprop="description" content="什么叫网络爬虫？
+
+
+网络爬虫（又被称为网页蜘蛛、网络机器人），是一种按照一定的规则，自动抓取万维网信息的程序或者脚本。《Python网络爬虫开发与项目实战》范传辉 著
+
+
+百度搜索引擎就属于网络爬虫中的一种。通俗地说，网络爬虫就是按照你的意愿，在广阔的万维网上自动下载并整理你所需要的资源。这样听上去是不是既有趣又有用？培育爬虫是一个艰难的过程，万维网时刻在变化，网络爬虫要想生存下来，必须时刻进化！
+
+">
+
+
+<meta itemprop="datePublished" content="2018-09-17T04:32:41-07:00" />
+<meta itemprop="dateModified" content="2018-09-17T04:32:41-07:00" />
+<meta itemprop="wordCount" content="1758">
+
+
+
+<meta itemprop="keywords" content="网络爬虫，python，CS," />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="用Python培育网络爬虫（0）绪论"/>
+<meta name="twitter:description" content="什么叫网络爬虫？
+
+
+网络爬虫（又被称为网页蜘蛛、网络机器人），是一种按照一定的规则，自动抓取万维网信息的程序或者脚本。《Python网络爬虫开发与项目实战》范传辉 著
+
+
+百度搜索引擎就属于网络爬虫中的一种。通俗地说，网络爬虫就是按照你的意愿，在广阔的万维网上自动下载并整理你所需要的资源。这样听上去是不是既有趣又有用？培育爬虫是一个艰难的过程，万维网时刻在变化，网络爬虫要想生存下来，必须时刻进化！
+
+"/>
+
+<!--[if lte IE 9]>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
+<![endif]-->
+
+<!--[if lt IE 9]>
+  <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+<![endif]-->
+
+</head>
+<body>
+  <div id="mobile-navbar" class="mobile-navbar">
+  <div class="mobile-header-logo">
+    <a href="/" class="logo">Sunning</a>
+  </div>
+  <div class="mobile-navbar-icon">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+</div>
+<nav id="mobile-menu" class="mobile-menu slideout-menu">
+  <ul class="mobile-menu-list">
+    <a href="/">
+        <li class="mobile-menu-item">Home</li>
+      </a><a href="/post/">
+        <li class="mobile-menu-item">归档</li>
+      </a><a href="/tags/">
+        <li class="mobile-menu-item">标签</li>
+      </a><a href="/categories/">
+        <li class="mobile-menu-item">分类</li>
+      </a><a href="/about/">
+        <li class="mobile-menu-item">关于</li>
+      </a><a href="/comment/">
+        <li class="mobile-menu-item">留言</li>
+      </a>
+  </ul>
+</nav>
+  <div class="container" id="mobile-panel">
+    <header id="header" class="header">
+        <div class="logo-wrapper">
+  <a href="/" class="logo">Sunning</a>
+</div>
+
+<nav class="site-navbar">
+  <ul id="menu" class="menu">
+    <li class="menu-item">
+        <a class="menu-item-link" href="/">Home</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/post/">归档</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/tags/">标签</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/categories/">分类</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/about/">关于</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/comment/">留言</a>
+      </li>
+  </ul>
+</nav>
+    </header>
+
+    <main id="main" class="main">
+      <div class="content-wrapper">
+        <div id="content" class="content">
+          <article class="post">
+    
+    <header class="post-header">
+      <h1 class="post-title">用Python培育网络爬虫（0）绪论</h1>
+
+      <div class="post-meta">
+        <span class="post-time"> 2018-09-17 </span>
+        <div class="post-category">
+            
+              <a href="/categories/%E7%BD%91%E7%BB%9C%E7%88%AC%E8%99%ABpython%E5%AE%9E%E7%8E%B0/"> 网络爬虫：python实现 </a>
+            
+          </div>
+        <span class="more-meta"> 约 1758 字 </span>
+        <span class="more-meta"> 预计阅读 4 分钟 </span>
+        <span id="busuanzi_container_page_pv" class="more-meta"> <span id="busuanzi_value_page_pv"><img src="/img/spinner.svg" alt="spinner.svg"/></span> 次阅读 </span>
+      </div>
+    </header>
+
+    
+    
+<div class="post-toc" id="post-toc">
+  <h2 class="post-toc-title">文章目录</h2>
+  
+  <div class="post-toc-content">
+    <nav id="TableOfContents">
+<ul>
+<li>
+<ul>
+<li>
+<ul>
+<li>
+<ul>
+<li><a href="#0-动机">0.动机</a></li>
+<li><a href="#1-学习思路">1.学习思路</a>
+<ul>
+<li><a href="#1-1-开发环境">1.1 开发环境</a></li>
+<li><a href="#1-2-预备知识">1.2 预备知识</a></li>
+</ul></li>
+</ul></li>
+</ul></li>
+</ul></li>
+</ul>
+</nav>
+  </div>
+</div>
+
+    
+    
+
+    
+    <div class="post-content">
+      <p>什么叫网络爬虫？</p>
+
+<blockquote>
+<p>网络爬虫（又被称为网页蜘蛛、网络机器人），是一种按照一定的规则，自动抓取万维网信息的程序或者脚本。《Python网络爬虫开发与项目实战》范传辉 著</p>
+</blockquote>
+
+<p>百度搜索引擎就属于网络爬虫中的一种。通俗地说，网络爬虫就是按照你的意愿，在广阔的万维网上自动下载并整理你所需要的资源。这样听上去是不是既有趣又有用？培育爬虫是一个艰难的过程，万维网时刻在变化，网络爬虫要想生存下来，必须时刻进化！</p>
+
+<p></p>
+
+<h4 id="0-动机">0.动机</h4>
+
+<p>这就是一份读书笔记。</p>
+
+<p>大约是在一年前的暑假，我在学校闲得无聊，开始学习网络上炒得很火的python，大概几个下午的时间，简单阅读了一下它的语法，我觉得很好入手。可惜自此之后，便很少用了，也就生疏了。第二次邂逅，是在大三下学期的地球物理基础实验课上，我记得很清楚，萌萌的万柯松老师眯着眼睛给我们上了一堂python课，名字叫《用Python整合地球物理软件》，很惭愧，讲了什么我的确忘得一干二净了，但是仍然记得万老师满面春风地说出那句脍炙人口的话：人生苦短，我用Python！给我小小的心灵造成了很大的震撼。</p>
+
+<p>仍然很惭愧，自此以后，我也没逮着机会好好用python。转折点是在2018年的夏天，我有幸前往闻名世界的加州理工学院地震实验室（请允许我时常提起这件事情，我把它作为一件很光荣的可以吹很久的事迹）。当时，我需要处理地震数据，需要接手博士生Ethan的代码，他酷爱使用python，于是，我真正开始了长时间使用python。之前我一般采用matlab进行绘图，效果很差，虽然matlab的计算能力强大，但不好意思，绘制出的图片，我也实在不是谦虚，非常差，以至于我组会作进展报告时，羞愤不已。</p>
+
+<p>接手Ethan的代码后，我才知道原来python的matplotlib能画出这么好看的图，而且我还用它做了很多gif动图，可以说功能非常强大了。我如饥似渴地学习python的各种API。回国后不久，我开始了我的第一个开源项目，PySeislib的开发，到现在为止，已经完成了第一个项目，PyE-Click，跨平台多情景的划词翻译工具。目前我并没有急着开放源代码，项目还需要测试，更重要的原因是，我借由这个项目，找到了python新的学习方向——网络爬虫。</p>
+
+<p>网络爬虫，现在来讲，已经过气了，因为能爬到的有价值的东西已经很少了。</p>
+
+<p>为什么我要继续学习网络爬虫？答案是我真的很闲。。。。。。</p>
+
+<p>言归正传，网络爬虫还是能做很多事情了，只要你敢想，我就能做。另外，学习网络爬虫，能系统地回顾之前我学过的web前段技术和数据库的相关知识。</p>
+
+<h4 id="1-学习思路">1.学习思路</h4>
+
+<p>使用范传辉编著的《Python爬虫开发与项目实践》作为教材。这本书使用的是Python2.7，但现在主流的Python版本已经是3.6了，很多地方不兼容，我决心对其中内容进行修改，以飨读者。这本书的信息量之大，令我激动不已，用精简的笔法cover了web编程的方方面面，推荐各位一读。</p>
+
+<h5 id="1-1-开发环境">1.1 开发环境</h5>
+
+<p>Anaconda + Python 3.6.5+Ubuntu 18.04/Red hat</p>
+
+<p>我觉得我有一个优势就是我所在的实验室有一个闲置的大服务器，因为换了更好的新服务器，老服务器没人用了，这样爬虫可以放在服务器上24小时不间断地爬取并下载资源，当然我肯定不做违法违纪的事情，不然我老板知道了一定会开除我的。</p>
+
+<h5 id="1-2-预备知识">1.2 预备知识</h5>
+
+<p>开发网络爬虫需要一些预备知识，现列举如下：</p>
+
+<ul>
+<li>Python基本语法和相关库的使用</li>
+<li>Web基本知识
+
+<ul>
+<li>Html</li>
+<li>CSS</li>
+<li>JS</li>
+<li>Xpath</li>
+<li>Json</li>
+<li>Ajax</li>
+</ul></li>
+<li>数据库知识</li>
+</ul>
+
+<p>说实话，上面很多东西我都是半桶水甚至不会，我也不可能一项一项去熟练，然后再去学习网络爬虫，我采取的是边学爬虫边补基础的办法，我的计算机底子太差了，毕竟不是科班出身，我需要去听一些计院的专业课，也许。</p>
+
+<p>所以这份笔记的布局比较诡异，我把上面列举的诸多东西放在附录里面，并且加上一些无关爬虫的bonus，而附录也随时更新，正文直接从python网络爬虫开始讲起。主要结构如下：</p>
+
+<p><strong>PYSPY附录</strong></p>
+
+<ul>
+<li>超文本标记语言Html和CSS</li>
+<li>动态Web脚本Javascript</li>
+<li>Xpath与JSON</li>
+<li>浅谈万维网</li>
+<li>再学数据库</li>
+</ul>
+
+<p><strong>其他</strong></p>
+
+<ul>
+<li>Markdown笔记（bonus）</li>
+<li>Latex笔记（bonus）</li>
+
+<li><p>C++学习笔记（主要是用来熟悉OOP面向对象编程，bonus）</p></li>
+
+<li><p>C语言笔记（bonus）</p></li>
+
+<li><p>Fortran计算与IDL制图笔记（bonus）</p></li>
+
+<li><p>Matlab笔记</p></li>
+
+<li><p>Java学习笔记</p></li>
+
+<li><p>Exel制图</p></li>
+</ul>
+
+<p>所以，现就这样了，开始吧！</p>
+    </div>
+
+    
+    <div class="post-copyright">
+  <p class="copyright-item">
+    <span class="item-title">文章作者</span>
+    <span class="item-content">Sunning</span>
+  </p>
+  <p class="copyright-item">
+    <span class="item-title">上次更新</span>
+    <span class="item-content">2018-09-17</span>
+  </p>
+  
+  
+</div>
+
+    
+    
+<div class="post-reward">
+  <input type="checkbox" name="reward" id="reward" hidden />
+  <label class="reward-button" for="reward">赞赏支持</label>
+  <div class="qr-code">
+    
+    
+      <label class="qr-code-image" for="reward">
+        <img class="image" src="/path/to/your/wechat-qr-code.png">
+        <span>微信打赏</span>
+      </label>
+    
+      <label class="qr-code-image" for="reward">
+        <img class="image" src="/path/to/your/alipay-qr-code.png">
+        <span>支付宝打赏</span>
+      </label>
+  </div>
+</div>
+
+    <footer class="post-footer">
+      <div class="post-tags">
+          
+          <a href="/tags/%E7%BD%91%E7%BB%9C%E7%88%AC%E8%99%ABpythoncs/">网络爬虫，python，CS</a>
+          
+        </div>
+
+      
+      <nav class="post-nav">
+        
+          <a class="prev" href="/post/augs6/">
+            <i class="iconfont icon-left"></i>
+            <span class="prev-text nav-default">八月-第二卷-6 八月正文</span>
+            <span class="prev-text nav-mobile">上一篇</span>
+          </a>
+        
+          <a class="next" href="/post/augs5/">
+            <span class="next-text nav-default">八月-第二卷-5 丰子伟</span>
+            <span class="next-text nav-mobile">下一篇</span>
+            <i class="iconfont icon-right"></i>
+          </a>
+      </nav>
+    </footer>
+  </article>
+        </div>
+        
+  
+  
+  <span id="/post/pyspy0/" class="leancloud_visitors" data-flag-title="用Python培育网络爬虫（0）绪论">
+    <span class="post-meta-item-text">文章阅读量 </span>
+    <span class="leancloud-visitors-count">1000000</span>
+    <p></p>
+  </span>
+  <div id="vcomments"></div>
+  <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+  <script src='//unpkg.com/valine/dist/Valine.min.js'></script>
+  <script type="text/javascript">
+    new Valine({
+        el: '#vcomments' ,
+        appId: 'fQNG8CBbdTV1yWbEhXTVAOgV-gzGzoHsz',
+        appKey: 'eiQnl9tOdwE9UtAKXeGmwOcJ',
+        notify:  false , 
+        verify:  false , 
+        avatar:'mm', 
+        placeholder: '可以不填邮箱和网站...',
+        visitor:  true 
+    });
+  </script>
+
+  
+
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="social-links">
+      <a href="mailto:your@email.com" class="iconfont icon-email" title="email"></a>
+      <a href="http://localhost:1313" class="iconfont icon-stack-overflow" title="stack-overflow"></a>
+      <a href="http://localhost:1313" class="iconfont icon-twitter" title="twitter"></a>
+      <a href="http://localhost:1313" class="iconfont icon-facebook" title="facebook"></a>
+      <a href="http://localhost:1313" class="iconfont icon-linkedin" title="linkedin"></a>
+      <a href="http://localhost:1313" class="iconfont icon-google" title="google"></a>
+      <a href="http://localhost:1313" class="iconfont icon-github" title="github"></a>
+      <a href="http://localhost:1313" class="iconfont icon-weibo" title="weibo"></a>
+      <a href="http://localhost:1313" class="iconfont icon-zhihu" title="zhihu"></a>
+      <a href="http://localhost:1313" class="iconfont icon-douban" title="douban"></a>
+      <a href="http://localhost:1313" class="iconfont icon-pocket" title="pocket"></a>
+      <a href="http://localhost:1313" class="iconfont icon-tumblr" title="tumblr"></a>
+      <a href="http://localhost:1313" class="iconfont icon-instagram" title="instagram"></a>
+  <a href="http://localhost:1313/index.xml" type="application/rss+xml" class="iconfont icon-rss" title="rss"></a>
+</div>
+
+<div class="copyright">
+  <span class="power-by">
+    由 <a class="hexo-link" href="https://gohugo.io">Hugo</a> 强力驱动
+  </span>
+  <span class="division">|</span>
+  <span class="theme-info">
+    主题 - 
+    <a class="theme-link" href="https://github.com/olOwOlo/hugo-theme-even">Even</a>
+  </span>
+
+  <div class="busuanzi-footer">
+    <span id="busuanzi_container_site_pv"> 本站总访问量 <span id="busuanzi_value_site_pv"><img src="/img/spinner.svg" alt="spinner.svg"/></span> 次 </span>
+    <span class="division">|</span>
+    <span id="busuanzi_container_site_uv"> 本站总访客数 <span id="busuanzi_value_site_uv"><img src="/img/spinner.svg" alt="spinner.svg"/></span> 人 </span>
+  </div>
+
+  <span class="copyright-year">
+    &copy; 
+    2018
+    <span class="heart">
+      <i class="iconfont icon-heart"></i>
+    </span>
+    <span class="author">zhangs</span>
+  </span>
+</div>
+    </footer>
+
+    <div class="back-to-top" id="back-to-top">
+      <i class="iconfont icon-up"></i>
+    </div>
+  </div>
+  
+<script src="/lib/highlight/highlight.pack.js?v=20171001"></script><script type="text/javascript" src="/lib/jquery/jquery-3.2.1.min.js"></script>
+  <script type="text/javascript" src="/lib/slideout/slideout-1.0.1.min.js"></script>
+  <script type="text/javascript" src="/lib/fancybox/jquery.fancybox-3.1.20.min.js"></script>
+
+
+<script type="text/javascript" src="/dist/even.min.js?v=3.2.0"></script>
+  <script type="text/javascript">
+    window.MathJax = {
+      tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]},
+      showProcessingMessages: false,
+      messageStyle: 'none'
+    };
+  </script>
+  <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+
+
+
+
+
+
+
+
+</body>
+</html>

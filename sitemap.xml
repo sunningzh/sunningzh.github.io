@@ -17,6 +17,13 @@
   </url>
   
   <url>
+    <loc>http://localhost:1313/post/augs_stop/</loc>
+    <lastmod>2018-10-27T18:39:59+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>http://localhost:1313/post/feel2/</loc>
     <lastmod>2018-10-22T22:21:32+08:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -200,7 +207,7 @@
   
   <url>
     <loc>http://localhost:1313/post/</loc>
-    <lastmod>2018-10-22T22:21:32+08:00</lastmod>
+    <lastmod>2018-10-27T18:39:59+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
@@ -221,7 +228,14 @@
   
   <url>
     <loc>http://localhost:1313/tags/%E5%85%AB%E6%9C%88/</loc>
-    <lastmod>2018-09-17T06:19:37-07:00</lastmod>
+    <lastmod>2018-10-27T18:39:59+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/categories/%E5%85%AB%E6%9C%88/</loc>
+    <lastmod>2018-10-27T18:39:59+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>

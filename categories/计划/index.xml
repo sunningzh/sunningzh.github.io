@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>计划 on Sunning - zhang&#39;s homepage</title>
+    <link>http://localhost:1313/categories/%E8%AE%A1%E5%88%92/</link>
+    <description>Recent content in 计划 on Sunning - zhang&#39;s homepage</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 05 Nov 2018 14:01:07 +0800</lastBuildDate>
+    
+	<atom:link href="http://localhost:1313/categories/%E8%AE%A1%E5%88%92/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>新学期的计划</title>
+      <link>http://localhost:1313/post/plan1/</link>
+      <pubDate>Mon, 05 Nov 2018 14:01:07 +0800</pubDate>
+      
+      <guid>http://localhost:1313/post/plan1/</guid>
+      <description>&lt;p&gt;已经开学两个月了，每天浑浑噩噩，一事无成，终究需要列一个计划，比如，在2019年到来之前读完citcom的源代码，比如学一手素描功夫，比如拯救一下自己的英语。幸而这个学期的课程十分规律，想来好执行，可是已然过半，内心十分惭愧、懊恼，希望此番亡羊补牢之举，尚且不晚。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

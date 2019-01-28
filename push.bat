@@ -1,5 +1,5 @@
 git init
-git remote add origin https://github.com/coderzh/coderzh.github.io.git
+git remote add origin https://github.com/sunningzh/sunningzh.github.io.git
 git add -A
 git config --global user.email "zsx1997@mail.ustc.edu.cn"
 git config --global user.name "sunningzh"

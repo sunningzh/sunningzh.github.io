@@ -30,14 +30,21 @@
     </item>
     
     <item>
+      <title>Testformac</title>
+      <link>http://localhost:1313/post/testformac/</link>
+      <pubDate>Mon, 28 Jan 2019 11:56:31 +0800</pubDate>
+      
+      <guid>http://localhost:1313/post/testformac/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>新学期的计划</title>
       <link>http://localhost:1313/post/plan1/</link>
       <pubDate>Mon, 05 Nov 2018 14:01:07 +0800</pubDate>
       
       <guid>http://localhost:1313/post/plan1/</guid>
-      <description>&lt;p&gt;已经开学两个月了，每天浑浑噩噩，一事无成，终究需要列一个计划，比如，在2019年到来之前读完citcom的源代码，比如学一手素描功夫，比如拯救一下自己的英语。幸而这个学期的课程十分规律，想来好执行，可是已然过半，内心十分惭愧、懊恼，希望此番亡羊补牢之举，尚且不晚。&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;已经开学两个月了，每天浑浑噩噩，一事无成，终究需要列一个计划，比如，在2019年到来之前读完citcom的源代码，比如学一手素描功夫，比如拯救一下自己的英语。幸而这个学期的课程十分规律，想来好执行，可是已然过半，内心十分惭愧、懊恼，希望此番亡羊补牢之举，尚且不晚。&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -46,9 +53,7 @@
       <pubDate>Sat, 27 Oct 2018 18:39:59 +0800</pubDate>
       
       <guid>http://localhost:1313/post/augs_stop/</guid>
-      <description>&lt;p&gt;很遗憾地告知各位，《八月》停止更新。时间实在不够，其他文章会继续写的，更新频率不会很高了，会经常写一些技术性、学术性的文章和日常生活中的随笔。&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;很遗憾地告知各位，《八月》停止更新。时间实在不够，其他文章会继续写的，更新频率不会很高了，会经常写一些技术性、学术性的文章和日常生活中的随笔。&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -61,9 +66,7 @@
 
 &lt;p&gt;另外，非常感谢从小到大各位指导过我的老师，特别感谢即将到来的研究生生涯的导师冷伟教授非常爽快地接收了我，期待接下来的生活。&lt;/p&gt;
 
-&lt;p&gt;最后，最真挚的谢意与歉意带给我的同学、朋友们。也许以前什么时候我伤害了你，有意或者无意，希望以后还有机会亲口跟你道个歉，也许你真的不想再原谅我。&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;p&gt;最后，最真挚的谢意与歉意带给我的同学、朋友们。也许以前什么时候我伤害了你，有意或者无意，希望以后还有机会亲口跟你道个歉，也许你真的不想再原谅我。&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -76,9 +79,7 @@
 &lt;p&gt;I want to tell you a story.&lt;/p&gt;
 
 &lt;p&gt;——《 The Linux Command Line 》&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;/blockquote&gt;</description>
     </item>
     
     <item>
@@ -93,9 +94,7 @@
 &lt;p&gt;网络爬虫（又被称为网页蜘蛛、网络机器人），是一种按照一定的规则，自动抓取万维网信息的程序或者脚本。《Python网络爬虫开发与项目实战》范传辉 著&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;百度搜索引擎就属于网络爬虫中的一种。通俗地说，网络爬虫就是按照你的意愿，在广阔的万维网上自动下载并整理你所需要的资源。这样听上去是不是既有趣又有用？培育爬虫是一个艰难的过程，万维网时刻在变化，网络爬虫要想生存下来，必须时刻进化！&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;p&gt;百度搜索引擎就属于网络爬虫中的一种。通俗地说，网络爬虫就是按照你的意愿，在广阔的万维网上自动下载并整理你所需要的资源。这样听上去是不是既有趣又有用？培育爬虫是一个艰难的过程，万维网时刻在变化，网络爬虫要想生存下来，必须时刻进化！&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -104,9 +103,7 @@
       <pubDate>Wed, 12 Sep 2018 07:02:27 -0700</pubDate>
       
       <guid>http://localhost:1313/post/augs5/</guid>
-      <description>&lt;p&gt;孙柠很晚才认识的丰子伟。&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;孙柠很晚才认识的丰子伟。&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -119,9 +116,7 @@
 &lt;p&gt;我可能确实不擅长写出什么吸引眼球的情节，但你可能已经发现了，第二卷的开篇，每一篇都有一个新的角色登场，每个人都能在聚光灯下独自登场，因为，每个人都是自己故事中的主角。&lt;/p&gt;
 
 &lt;p&gt;——Sunning&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;/blockquote&gt;</description>
     </item>
     
     <item>
@@ -130,9 +125,7 @@
       <pubDate>Sun, 02 Sep 2018 13:23:51 -0700</pubDate>
       
       <guid>http://localhost:1313/post/it2/</guid>
-      <description>&lt;p&gt;我年轻的时候曾经用python写过一个GUI界面的文件搜索器，它的原理很简单，遍历每一个路径寻找文件，搜索速度不敢恭维，近来使用python画图时觉得这个语言确实很好用，而且自己日常也需要一些小工具，于是想自己用python开发，我把这一系列小工具集合起来，名字就叫做PySeisLib.&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;我年轻的时候曾经用python写过一个GUI界面的文件搜索器，它的原理很简单，遍历每一个路径寻找文件，搜索速度不敢恭维，近来使用python画图时觉得这个语言确实很好用，而且自己日常也需要一些小工具，于是想自己用python开发，我把这一系列小工具集合起来，名字就叫做PySeisLib.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -141,9 +134,7 @@
       <pubDate>Sat, 01 Sep 2018 00:02:15 -0700</pubDate>
       
       <guid>http://localhost:1313/post/augs3/</guid>
-      <description>&lt;p&gt;严格来讲，孙柠没有谈过恋爱。&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;严格来讲，孙柠没有谈过恋爱。&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -152,9 +143,7 @@
       <pubDate>Wed, 29 Aug 2018 21:12:31 -0700</pubDate>
       
       <guid>http://localhost:1313/post/reading1/</guid>
-      <description>&lt;p&gt;在这个浮躁的社会，我大能摸着良心说一句自己算是个红学爱好者，窃以为，仅凭阅读了四遍红楼梦，遍有望担当起爱好者这三个字。今天，且听我谈谈我看红楼的一些粗浅的理解。&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;在这个浮躁的社会，我大能摸着良心说一句自己算是个红学爱好者，窃以为，仅凭阅读了四遍红楼梦，遍有望担当起爱好者这三个字。今天，且听我谈谈我看红楼的一些粗浅的理解。&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -167,9 +156,7 @@
 
 &lt;p&gt;这次暑研才发现文件的I/O操作是我在编程中薄弱的一项，希望今后多多注意这个问题，多多总结。&lt;/p&gt;
 
-&lt;p&gt;由于自己还比较熟悉Fortran和Linux shell还有Matlab，希望之后跟进一下这三门语言的I/O操作。&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;p&gt;由于自己还比较熟悉Fortran和Linux shell还有Matlab，希望之后跟进一下这三门语言的I/O操作。&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -178,9 +165,7 @@
       <pubDate>Wed, 29 Aug 2018 17:37:48 -0700</pubDate>
       
       <guid>http://localhost:1313/post/feel1/</guid>
-      <description>&lt;p&gt;这是我第一次出国，有幸参加了加州理工学院的暑期研究项目，在未来几年内，这都似乎能成为简历上的一个小亮点。截止到起笔这篇文章时，我的项目已经基本完成，还有一些收尾工作，今天在组会上，做了一个预报告。这九周来，我的总体表现比较糟糕，但愿在一周后的presentation上表现能有所提高。&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;这是我第一次出国，有幸参加了加州理工学院的暑期研究项目，在未来几年内，这都似乎能成为简历上的一个小亮点。截止到起笔这篇文章时，我的项目已经基本完成，还有一些收尾工作，今天在组会上，做了一个预报告。这九周来，我的总体表现比较糟糕，但愿在一周后的presentation上表现能有所提高。&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -189,9 +174,7 @@
       <pubDate>Mon, 27 Aug 2018 23:59:27 -0700</pubDate>
       
       <guid>http://localhost:1313/post/zatan1/</guid>
-      <description>&lt;p&gt;诸位好友中，有此狂才的人，仅次一位。文中的部分观点，我不敢苟同，但却很能反映当代年轻人，特别是90后这一批人，对于未来的非常现实的一种焦虑、恐惧、担忧和思考、探索。&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;诸位好友中，有此狂才的人，仅次一位。文中的部分观点，我不敢苟同，但却很能反映当代年轻人，特别是90后这一批人，对于未来的非常现实的一种焦虑、恐惧、担忧和思考、探索。&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -208,9 +191,7 @@
 
 &lt;p&gt;“其实异地恋这件事情本来就很不靠谱的，想开点。”&lt;/p&gt;
 
-&lt;p&gt;“你懂什么，你什么都不懂。”曾一帆有一点恼火，虽然他知道孙柠倒也没有什么恶意，纯粹是情商低，当然只是他这样认为的。&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;p&gt;“你懂什么，你什么都不懂。”曾一帆有一点恼火，虽然他知道孙柠倒也没有什么恶意，纯粹是情商低，当然只是他这样认为的。&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -223,9 +204,7 @@
 
 &lt;p&gt;最关键的原因是我很难去面对过去的自己。然而却是一件有意思的事情，这倒能逼迫自己去反思一些东西。对，没错，我也是小说中的一个角色的故事原型，我不认为我是全书的主角，但可能在第一卷中开启大量的上帝视角，&lt;/p&gt;
 
-&lt;p&gt;各位不用猜测了，孙柠就是以我为原型。其他很多人都有自己的原型，或者是几个人的组合，我并不可能去了解每个人的方方面面，只能尝试去组合这些记忆碎片，加上一些虚构揣测。如有雷同，纯属巧合。&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;p&gt;各位不用猜测了，孙柠就是以我为原型。其他很多人都有自己的原型，或者是几个人的组合，我并不可能去了解每个人的方方面面，只能尝试去组合这些记忆碎片，加上一些虚构揣测。如有雷同，纯属巧合。&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -234,9 +213,7 @@
       <pubDate>Sun, 26 Aug 2018 22:54:49 -0700</pubDate>
       
       <guid>http://localhost:1313/post/augs1/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;https://lh4.googleusercontent.com/-FzG2KOpaB9o/VF2iuuJIzSI/AAAAAAAA9CU/4pKksMH60_0/s640/blogger-image--383491779.jpg&#34;/&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;&lt;img src=&#34;https://lh4.googleusercontent.com/-FzG2KOpaB9o/VF2iuuJIzSI/AAAAAAAA9CU/4pKksMH60_0/s640/blogger-image--383491779.jpg&#34;/&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -245,9 +222,7 @@
       <pubDate>Sun, 26 Aug 2018 22:34:28 -0700</pubDate>
       
       <guid>http://localhost:1313/post/augsws/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;https://static.panoramio.com.storage.googleapis.com/photos/large/7070820.jpg&#34;/&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;&lt;img src=&#34;https://static.panoramio.com.storage.googleapis.com/photos/large/7070820.jpg&#34;/&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -256,9 +231,7 @@
       <pubDate>Sun, 26 Aug 2018 21:47:20 -0700</pubDate>
       
       <guid>http://localhost:1313/post/augc1/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;https://user-images.githubusercontent.com/28468488/44641262-08e38480-a97b-11e8-953e-39ffcdae8eba.jpg&#34; height=&#34;80%&#34; width=&#34;80%&#34;/&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;&lt;img src=&#34;https://user-images.githubusercontent.com/28468488/44641262-08e38480-a97b-11e8-953e-39ffcdae8eba.jpg&#34; height=&#34;80%&#34; width=&#34;80%&#34;/&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -269,9 +242,7 @@
       <guid>http://localhost:1313/post/zt1/</guid>
       <description>&lt;p&gt;&lt;center&gt;转载自： 狂言君&lt;a href=&#34;http://www.gzhshoulu.wang/account_kuangyandoggy.html&#34;&gt;狂言Doggy&lt;/a&gt;&lt;/center&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;http://mmbiz.qpic.cn/mmbiz_jpg/qeV3buLzXm4s9kw8yVEKXyaBrC6pqXNoiaOnqWZMMf0Sic8nR3aVqh24erhRVYhqF6WxIbtM2vQibQAVby15Y4ia4Q/640?wx_fmt=jpeg&amp;amp;tp=webp&amp;amp;wxfrom=5&amp;amp;wx_lazy=1&#34; alt=&#34;img&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;p&gt;&lt;img src=&#34;http://mmbiz.qpic.cn/mmbiz_jpg/qeV3buLzXm4s9kw8yVEKXyaBrC6pqXNoiaOnqWZMMf0Sic8nR3aVqh24erhRVYhqF6WxIbtM2vQibQAVby15Y4ia4Q/640?wx_fmt=jpeg&amp;amp;tp=webp&amp;amp;wxfrom=5&amp;amp;wx_lazy=1&#34; alt=&#34;img&#34; /&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -280,9 +251,7 @@
       <pubDate>Sun, 26 Aug 2018 20:13:51 -0700</pubDate>
       
       <guid>http://localhost:1313/post/augt1/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;https://timgsa.baidu.com/timg?image&amp;quality=80&amp;size=b9999_10000&amp;sec=1535953394&amp;di=755d494688bb7797572b6ddb1b87a21b&amp;imgtype=jpg&amp;er=1&amp;src=http%3A%2F%2Fq.bstatic.com%2Fdata%2Fxphoto%2Fmax1280x900%2F752%2F752315.jpg&#34;/&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;&lt;img src=&#34;https://timgsa.baidu.com/timg?image&amp;quality=80&amp;size=b9999_10000&amp;sec=1535953394&amp;di=755d494688bb7797572b6ddb1b87a21b&amp;imgtype=jpg&amp;er=1&amp;src=http%3A%2F%2Fq.bstatic.com%2Fdata%2Fxphoto%2Fmax1280x900%2F752%2F752315.jpg&#34;/&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -291,9 +260,7 @@
       <pubDate>Sun, 26 Aug 2018 16:49:30 -0700</pubDate>
       
       <guid>http://localhost:1313/post/hugo_githubpage/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;https://spin.atomicobject.com/wp-content/uploads/20171003153036/github-logo.png&#34; height=&#34;80%&#34; width=&#34;80%&#34;/&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;&lt;img src=&#34;https://spin.atomicobject.com/wp-content/uploads/20171003153036/github-logo.png&#34; height=&#34;80%&#34; width=&#34;80%&#34;/&gt;&lt;/p&gt;</description>
     </item>
     
   </channel>

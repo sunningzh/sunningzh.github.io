@@ -17,9 +17,7 @@
       <pubDate>Sun, 02 Sep 2018 13:23:51 -0700</pubDate>
       
       <guid>http://localhost:1313/post/it2/</guid>
-      <description>&lt;p&gt;我年轻的时候曾经用python写过一个GUI界面的文件搜索器，它的原理很简单，遍历每一个路径寻找文件，搜索速度不敢恭维，近来使用python画图时觉得这个语言确实很好用，而且自己日常也需要一些小工具，于是想自己用python开发，我把这一系列小工具集合起来，名字就叫做PySeisLib.&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;我年轻的时候曾经用python写过一个GUI界面的文件搜索器，它的原理很简单，遍历每一个路径寻找文件，搜索速度不敢恭维，近来使用python画图时觉得这个语言确实很好用，而且自己日常也需要一些小工具，于是想自己用python开发，我把这一系列小工具集合起来，名字就叫做PySeisLib.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -32,9 +30,7 @@
 
 &lt;p&gt;这次暑研才发现文件的I/O操作是我在编程中薄弱的一项，希望今后多多注意这个问题，多多总结。&lt;/p&gt;
 
-&lt;p&gt;由于自己还比较熟悉Fortran和Linux shell还有Matlab，希望之后跟进一下这三门语言的I/O操作。&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;p&gt;由于自己还比较熟悉Fortran和Linux shell还有Matlab，希望之后跟进一下这三门语言的I/O操作。&lt;/p&gt;</description>
     </item>
     
   </channel>

@@ -17,8 +17,15 @@
   </url>
   
   <url>
-    <loc>http://localhost:1313/post/testformac/</loc>
-    <lastmod>2019-01-28T11:56:31+08:00</lastmod>
+    <loc>http://localhost:1313/post/19022723/</loc>
+    <lastmod>2019-02-27T20:40:59+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/post/19022722/</loc>
+    <lastmod>2019-02-27T20:29:32+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -221,7 +228,7 @@
   
   <url>
     <loc>http://localhost:1313/post/</loc>
-    <lastmod>2019-01-28T11:56:31+08:00</lastmod>
+    <lastmod>2019-02-27T20:40:59+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
@@ -304,6 +311,20 @@
   </url>
   
   <url>
+    <loc>http://localhost:1313/tags/%E6%97%A5%E8%AE%B0/</loc>
+    <lastmod>2019-02-27T20:29:32+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/categories/%E6%97%A5%E8%AE%B0/</loc>
+    <lastmod>2019-02-27T20:29:32+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://localhost:1313/categories/%E6%9D%82%E6%84%9F/</loc>
     <lastmod>2018-10-22T22:21:32+08:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -361,14 +382,14 @@
   
   <url>
     <loc>http://localhost:1313/tags/%E8%AE%A1%E5%88%92/</loc>
-    <lastmod>2018-11-05T14:01:07+08:00</lastmod>
+    <lastmod>2019-02-27T20:40:59+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://localhost:1313/categories/%E8%AE%A1%E5%88%92/</loc>
-    <lastmod>2018-11-05T14:01:07+08:00</lastmod>
+    <lastmod>2019-02-27T20:40:59+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>

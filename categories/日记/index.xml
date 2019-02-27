@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>日记 on Sunning - zhang&#39;s homepage</title>
+    <link>http://localhost:1313/categories/%E6%97%A5%E8%AE%B0/</link>
+    <description>Recent content in 日记 on Sunning - zhang&#39;s homepage</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 27 Feb 2019 20:29:32 +0800</lastBuildDate>
+    
+	<atom:link href="http://localhost:1313/categories/%E6%97%A5%E8%AE%B0/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>一件小事</title>
+      <link>http://localhost:1313/post/19022722/</link>
+      <pubDate>Wed, 27 Feb 2019 20:29:32 +0800</pubDate>
+      
+      <guid>http://localhost:1313/post/19022722/</guid>
+      <description>&lt;p&gt;今天发生了一件不太愉快的事情，至少对当事人来说。同时我感到很羞愧。&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

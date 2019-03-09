@@ -17,6 +17,13 @@
   </url>
   
   <url>
+    <loc>http://localhost:1313/post/19030902/</loc>
+    <lastmod>2019-03-09T20:15:25+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>http://localhost:1313/post/19030901/</loc>
     <lastmod>2019-03-09T19:35:41+08:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -193,21 +200,21 @@
   
   <url>
     <loc>http://localhost:1313/categories/cs/</loc>
-    <lastmod>2018-09-02T13:23:51-07:00</lastmod>
+    <lastmod>2019-03-09T20:15:25+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://localhost:1313/categories/</loc>
-    <lastmod>2018-09-02T13:23:51-07:00</lastmod>
+    <lastmod>2019-03-09T20:15:25+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://localhost:1313/tags/github/</loc>
-    <lastmod>2018-08-26T16:49:30-07:00</lastmod>
+    <lastmod>2019-03-09T20:15:25+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
@@ -235,7 +242,7 @@
   
   <url>
     <loc>http://localhost:1313/post/</loc>
-    <lastmod>2019-03-09T19:35:41+08:00</lastmod>
+    <lastmod>2019-03-09T20:15:25+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>

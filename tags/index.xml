@@ -48,6 +48,15 @@
     </item>
     
     <item>
+      <title>python</title>
+      <link>http://localhost:1313/tags/python/</link>
+      <pubDate>Mon, 17 Sep 2018 04:32:41 -0700</pubDate>
+      
+      <guid>http://localhost:1313/tags/python/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>八月</title>
       <link>http://localhost:1313/tags/%E5%85%AB%E6%9C%88/</link>
       <pubDate>Sat, 27 Oct 2018 18:39:59 +0800</pubDate>
@@ -111,11 +120,11 @@
     </item>
     
     <item>
-      <title>网络爬虫，python，CS</title>
-      <link>http://localhost:1313/tags/%E7%BD%91%E7%BB%9C%E7%88%AC%E8%99%ABpythoncs/</link>
+      <title>网络爬虫</title>
+      <link>http://localhost:1313/tags/%E7%BD%91%E7%BB%9C%E7%88%AC%E8%99%AB/</link>
       <pubDate>Mon, 17 Sep 2018 04:32:41 -0700</pubDate>
       
-      <guid>http://localhost:1313/tags/%E7%BD%91%E7%BB%9C%E7%88%AC%E8%99%ABpythoncs/</guid>
+      <guid>http://localhost:1313/tags/%E7%BD%91%E7%BB%9C%E7%88%AC%E8%99%AB/</guid>
       <description></description>
     </item>
     

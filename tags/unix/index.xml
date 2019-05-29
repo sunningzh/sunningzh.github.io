@@ -13,10 +13,10 @@
     
     <item>
       <title>Unix Shell 进阶之定制你的专属Shell环境</title>
-      <link>http://localhost:1313/post/190316-1/</link>
+      <link>http://localhost:1313/post/190316/</link>
       <pubDate>Sun, 17 Mar 2019 16:34:59 +0800</pubDate>
       
-      <guid>http://localhost:1313/post/190316-1/</guid>
+      <guid>http://localhost:1313/post/190316/</guid>
       <description>&lt;p&gt;使用Unix系统一段时间之后，应该对&lt;code&gt;~/.bashrc&lt;/code&gt;,&lt;code&gt;~/.bash_profile&lt;/code&gt;这些环境配置文件不陌生，而这些配置文件也是Unix Shell的精髓所在，在一次&lt;code&gt;conda&lt;/code&gt;的更新中，出现了一个不愉快的结果，使得我查阅了相关的资料，系统地了解了bash shell的环境配置过程，在此和大家分享一下。本文参考了网上很多博客的相关内容，向这些开源社区的斗士致敬。&lt;/p&gt;</description>
     </item>
     

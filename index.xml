@@ -30,29 +30,47 @@
     </item>
     
     <item>
+      <title>你不是逃兵</title>
+      <link>http://localhost:1313/post/190526-2/</link>
+      <pubDate>Sun, 26 May 2019 16:10:33 +0800</pubDate>
+      
+      <guid>http://localhost:1313/post/190526-2/</guid>
+      <description>&lt;p&gt;好久没有联系你了，也不知道该怎么开口，只能一直默默在朋友圈给你点赞吧。估计你也很难看到这篇博客，我就畅所欲言，好好说说这些年的故事吧。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>大学时期的爱情</title>
+      <link>http://localhost:1313/post/190526-1/</link>
+      <pubDate>Sun, 26 May 2019 15:15:14 +0800</pubDate>
+      
+      <guid>http://localhost:1313/post/190526-1/</guid>
+      <description>&lt;p&gt;对于大学时期的爱情来说，毕业就是坟墓。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
       <title>初中的一些记忆</title>
-      <link>http://localhost:1313/post/190525-1/</link>
+      <link>http://localhost:1313/post/190525/</link>
       <pubDate>Sat, 25 May 2019 09:20:55 +0800</pubDate>
       
-      <guid>http://localhost:1313/post/190525-1/</guid>
+      <guid>http://localhost:1313/post/190525/</guid>
       <description>&lt;p&gt;事实上，五月二十五日是一个普通到不能再普通的日子了。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>初识GMT（一）绘制全球地形图</title>
-      <link>http://localhost:1313/post/190320-1/</link>
+      <link>http://localhost:1313/post/190320/</link>
       <pubDate>Wed, 20 Mar 2019 10:51:06 +0800</pubDate>
       
-      <guid>http://localhost:1313/post/190320-1/</guid>
+      <guid>http://localhost:1313/post/190320/</guid>
       <description>1.基础 一个GMT命令由gmt 模块 【选项 参数】构成 gmt pscoast -R0/20/0/20 -JM6i -Ggray -Wthin -B5 -B+t&amp;quot;Title with spaces&amp;quot; -V -P &amp;gt; map.ps</description>
     </item>
     
     <item>
       <title>Unix Shell 进阶之定制你的专属Shell环境</title>
-      <link>http://localhost:1313/post/190316-1/</link>
+      <link>http://localhost:1313/post/190316/</link>
       <pubDate>Sun, 17 Mar 2019 16:34:59 +0800</pubDate>
       
-      <guid>http://localhost:1313/post/190316-1/</guid>
+      <guid>http://localhost:1313/post/190316/</guid>
       <description>&lt;p&gt;使用Unix系统一段时间之后，应该对&lt;code&gt;~/.bashrc&lt;/code&gt;,&lt;code&gt;~/.bash_profile&lt;/code&gt;这些环境配置文件不陌生，而这些配置文件也是Unix Shell的精髓所在，在一次&lt;code&gt;conda&lt;/code&gt;的更新中，出现了一个不愉快的结果，使得我查阅了相关的资料，系统地了解了bash shell的环境配置过程，在此和大家分享一下。本文参考了网上很多博客的相关内容，向这些开源社区的斗士致敬。&lt;/p&gt;</description>
     </item>
     
